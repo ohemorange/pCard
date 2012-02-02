@@ -3,7 +3,7 @@ class CardsController < ApplicationController
   # GET /cards.json
   def index
     @cards = Card.all
-
+    @backgrounds = Background.all
     respond_to do |format|
       format.html # index.html.erb
       format.json { render :json => @cards }
@@ -25,7 +25,7 @@ class CardsController < ApplicationController
   # GET /cards/new.json
   def new
     @card = Card.new
-
+    @backgrounds = Background.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render :json => @card }
@@ -35,6 +35,7 @@ class CardsController < ApplicationController
   # GET /cards/1/edit
   def edit
     @card = Card.find(params[:id])
+    @backgrounds = Background.all
   end
 
   # POST /cards
