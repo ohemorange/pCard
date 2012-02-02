@@ -25,7 +25,7 @@ class CardsController < ApplicationController
   def new
     @card = Card.new
     @backgrounds = Background.all
-    @design = Design.all
+    @designs = Design.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render :json => @card }
