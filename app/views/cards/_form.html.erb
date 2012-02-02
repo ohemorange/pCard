@@ -25,9 +25,13 @@
   </div>
   <div class="field">
     <%= f.label :bg %><br />
+    <table>
+    <tr>
     <% @backgrounds.each do |background| %>
-      <div class = "img_container"><img class="preview" src="<%= background.file %>"/></div>
+      <td><img class="preview" src="<%= background.file %>"/></td>
     <% end %>
+    </tr>
+    </table>
     <%= f.hidden_field_tag :bg %>
   </div>
   <div class="field">
