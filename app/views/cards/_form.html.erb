@@ -13,15 +13,10 @@
 
   <div class="carousel">
     <div class = "carousel-inner">
-      <div class="field item active">
-        <div class="carousel-caption">
-          <h4><%= f.label :from %></h4>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </div>
+      <div class="field item">
+        <%= f.label :from %>
         <%= f.text_field :from %>
         <img src = "http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg"/>
-      </div>
-      <div class="field item">
         <%= f.label :to %><br />
         <%= f.text_field :to %>
       </div>
@@ -40,7 +35,7 @@
         </table>
         <%= f.hidden_field :bg %>
       </div>
-      <div class="field item">
+      <div class="field item active">
         <%= f.label :design %><br />
         <table>
         <tr>

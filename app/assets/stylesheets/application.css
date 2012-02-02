@@ -12,3 +12,16 @@
  *= require_tree .
  *= require twitter/bootstrap
 */
+
+.carousel {
+	height:400px;
+}
+
+.carousel-caption {
+	top:0;
+	background:none;
+	background:rgba(0,0,0,0);
+}
+.carousel-caption h4,.carousel-caption p {
+	color:#222222;
+}
