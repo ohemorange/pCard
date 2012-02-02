@@ -32,7 +32,7 @@
   </div>
   <div class="field">
     <%= f.label :design %><br />
-    <%= f.select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
+    <%= select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
   </div>
   <div class="actions">
     <%= f.submit %>
