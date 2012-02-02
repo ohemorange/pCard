@@ -25,11 +25,11 @@
   </div>
   <div class="field">
     <%= f.label :bg %><br />
-    <%= select_tag(:bg, options_for_select([['Holder', 'assets/dsc006932small-2.jpeg'], ['Woody Woo', 'assets/woodywoo.jpg']])) %>
+    <%= f.select_tag(:bg, options_for_select([['Holder', 'assets/dsc006932small-2.jpeg'], ['Woody Woo', 'assets/woodywoo.jpg']])) %>
   </div>
   <div class="field">
     <%= f.label :design %><br />
-    <%= select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
+    <%= f.select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
   </div>
   <div class="actions">
     <%= f.submit %>
