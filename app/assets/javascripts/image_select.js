@@ -8,16 +8,16 @@
 		
 		// shadow on mouseover
 		$('.preview').mouseover(function () {
-			$(this).addClass('shadow');
+			$(this).addClass('.box-shadow()');
 		})
 		.mousedown(function() {
-			$(this).removeClass('shadow');
+			$(this).removeClass('.box-shadow()');
 		})
 		.mouseup(function() {
-			$(this).addClass('shadow');
+			$(this).addClass('.box-shadow()');
 		})
 		.mouseleave(function() {
-			$(this).removeClass('shadow');
+			$(this).removeClass('.box-shadow()');
 		});
 
 		// remove shadow from all others
