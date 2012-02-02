@@ -1,4 +1,6 @@
 Pcard::Application.routes.draw do
+  resources :backgrounds
+
   resources :cards
 
   # The priority is based upon order of creation:
