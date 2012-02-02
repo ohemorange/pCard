@@ -11,39 +11,43 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :from %><br />
-    <%= f.text_field :from %>
-  </div>
-  <div class="field">
-    <%= f.label :to %><br />
-    <%= f.text_field :to %>
-  </div>
-  <div class="field">
-    <%= f.label :message %><br />
-    <%= f.text_area :message %>
-  </div>
-  <div class="field">
-    <%= f.label :bg %><br />
-    <table>
-    <tr>
-    <% @backgrounds.each do |background| %>
-      <td><img class="preview" src="<%= background.file %>"/></td>
-    <% end %>
-    </tr>
-    </table>
-    <%= f.hidden_field :bg %>
-  </div>
-  <div class="field">
-    <%= f.label :design %><br />
-    <table>
-    <tr>
-    <% @designs.each do |design| %>
-      <td><img class="preview" src="<%= design.file %>"/></td>
-    <% end %>
-    </tr>
-    </table>
-    <%= f.hidden_field :design %>
+  <div class="carousel">
+    <div class="field carousel-inner">
+      <%= f.label :from %><br />
+      <%= f.text_field :from %>
+    </div>
+    <div class="field carousel-inner">
+      <%= f.label :to %><br />
+      <%= f.text_field :to %>
+    </div>
+    <div class="field carousel-inner">
+      <%= f.label :message %><br />
+      <%= f.text_area :message %>
+    </div>
+    <div class="field carousel-inner">
+      <%= f.label :bg %><br />
+      <table>
+      <tr>
+      <% @backgrounds.each do |background| %>
+        <td><img class="preview" src="<%= background.file %>"/></td>
+      <% end %>
+      </tr>
+      </table>
+      <%= f.hidden_field :bg %>
+    </div>
+    <div class="field carousel-inner">
+      <%= f.label :design %><br />
+      <table>
+      <tr>
+      <% @designs.each do |design| %>
+        <td><img class="preview" src="<%= design.file %>"/></td>
+      <% end %>
+      </tr>
+      </table>
+      <%= f.hidden_field :design %>
+    </div>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
   </div>
   <div class="actions">
     <%= f.submit %>
