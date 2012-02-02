@@ -26,16 +26,6 @@
 <% end %>
 </table>
 
-<% @backgrounds.each do |background| %>
-  <tr>
-    <td><%= background.file %></td>
-    <td><%= link_to 'Show', background %></td>
-    <td><%= link_to 'Edit', edit_background_path(background) %></td>
-    <td><%= link_to 'Destroy', background, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
 <br />
 
 <%= link_to 'New Card', new_card_path %>
