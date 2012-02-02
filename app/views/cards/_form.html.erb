@@ -13,41 +13,43 @@
 
   <div class="carousel">
     <div class = "carousel-inner">
-      <p>asdfasfasdfasdfasdfasdfasdfsadf</p>
-    </div>
-    <div class="field carousel-inner">
-      <%= f.label :from %><br />
-      <%= f.text_field :from %>
-    </div>
-    <div class="field carousel-inner">
-      <%= f.label :to %><br />
-      <%= f.text_field :to %>
-    </div>
-    <div class="field carousel-inner">
-      <%= f.label :message %><br />
-      <%= f.text_area :message %>
-    </div>
-    <div class="field carousel-inner">
-      <%= f.label :bg %><br />
-      <table>
-      <tr>
-      <% @backgrounds.each do |background| %>
-        <td><img class="preview" src="<%= background.file %>"/></td>
-      <% end %>
-      </tr>
-      </table>
-      <%= f.hidden_field :bg %>
-    </div>
-    <div class="field carousel-inner">
-      <%= f.label :design %><br />
-      <table>
-      <tr>
-      <% @designs.each do |design| %>
-        <td><img class="preview" src="<%= design.file %>"/></td>
-      <% end %>
-      </tr>
-      </table>
-      <%= f.hidden_field :design %>
+      <div class="field item active">
+        <div class="carousel-caption">
+          <h4><%= f.label :from %></h4>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+        <%= f.text_field :from %>
+      </div>
+      <div class="field item">
+        <%= f.label :to %><br />
+        <%= f.text_field :to %>
+      </div>
+      <div class="field item">
+        <%= f.label :message %><br />
+        <%= f.text_area :message %>
+      </div>
+      <div class="field item">
+        <%= f.label :bg %><br />
+        <table>
+        <tr>
+        <% @backgrounds.each do |background| %>
+          <td><img class="preview" src="<%= background.file %>"/></td>
+        <% end %>
+        </tr>
+        </table>
+        <%= f.hidden_field :bg %>
+      </div>
+      <div class="field item">
+        <%= f.label :design %><br />
+        <table>
+        <tr>
+        <% @designs.each do |design| %>
+          <td><img class="preview" src="<%= design.file %>"/></td>
+        <% end %>
+        </tr>
+        </table>
+        <%= f.hidden_field :design %>
+      </div>
     </div>
   <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -55,31 +57,4 @@
   <div class="actions">
     <%= f.submit %>
   </div>
-  <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>First Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>Second Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>Third Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-          </div>
 <% end %>
