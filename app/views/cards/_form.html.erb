@@ -25,11 +25,14 @@
   </div>
   <div class="field">
     <%= f.label :bg %><br />
-    <%= f.select_tag(:bg, options_for_select([['Holder', 'assets/dsc006932small-2.jpeg'], ['Woody Woo', 'assets/woodywoo.jpg']])) %>
+    <% @backgrounds.each do |background| %>
+      <div class = "img_container"><img class="preview" src="<%= background.file %>"/></div>
+    <% end %>
+    <%= f.hidden_field_tag :bg %>
   </div>
   <div class="field">
     <%= f.label :design %><br />
-    <%= f.select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
+    <%= select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
   </div>
   <div class="actions">
     <%= f.submit %>
