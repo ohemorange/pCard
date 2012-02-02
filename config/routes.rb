@@ -1,4 +1,6 @@
 Pcard::Application.routes.draw do
+  resources :designs
+
   resources :backgrounds
 
   resources :cards

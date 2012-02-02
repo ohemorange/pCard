@@ -36,7 +36,14 @@
   </div>
   <div class="field">
     <%= f.label :design %><br />
-    <%= select(:cards, :design, { "Polaroid" => "assets/polaroid.jpg", "Minimalist" => "assets/mini.jpg"}) %>
+    <table>
+    <tr>
+    <% @designs.each do |design| %>
+      <td><img class="preview" src="<%= design.file %>"/></td>
+    <% end %>
+    </tr>
+    </table>
+    <%= f.hidden_field :design %>
   </div>
   <div class="actions">
     <%= f.submit %>
