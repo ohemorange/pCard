@@ -10,6 +10,7 @@ class CardsController < ApplicationController
   end
 
   def sent
+    @cards = Card.all # and now it's a get method.
     respond_to do |format|
       format.html # sent.html.erb
       format.json { render :json => @cards }
