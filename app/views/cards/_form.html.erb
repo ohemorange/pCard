@@ -31,14 +31,12 @@
         <td>
         <label class = "radio">
           <%= image_tag(background.file, :class => "preview", :size => "301x200") %><br/>
-          <%= background.label :file %>
           <%= f.radio_button(:bg, background.file) %>
         </label>
         </td>
       <% end %>
       </tr>
     </table>
-    <%= f.hidden_field :bg %>
   </div>
   <div class="field">
     <h2><%= f.label :design %><br /></h2>
