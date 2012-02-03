@@ -13,7 +13,10 @@
  *= require twitter/bootstrap
 */
 
-td
+label .radio img
 {
 text-align:center;
 }
+
+.radio{padding-left:0px}
+.radio input[type=radio]{float:none;margin-left:0px}
