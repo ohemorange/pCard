@@ -9,7 +9,7 @@ Pcard::Application.routes.draw do
     end
   end
 
-  root :to => 'cards/index.html'
+  root :to => 'cards'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
