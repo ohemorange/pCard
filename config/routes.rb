@@ -3,7 +3,13 @@ Pcard::Application.routes.draw do
 
   resources :backgrounds
 
-  resources :cards
+  resources :cards do
+    member do
+      get 'sent'
+    end
+  end
+
+  root :to => :cards
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

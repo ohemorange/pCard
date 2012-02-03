@@ -1,6 +1,7 @@
-fix dropdown
-show --> preview
-from preview, edit or send
 implement send
 on new page, preview or cancel (back to main page)
 when you click "send" on show/preview, brings to confirmation page
+
+  $('.carousel').carousel('pause')
+
+ add validation
