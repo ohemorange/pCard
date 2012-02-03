@@ -1,4 +1,6 @@
 Pcard::Application.routes.draw do
+  root :to => 'cards#main'
+
   resources :designs
 
   resources :backgrounds
@@ -9,7 +11,7 @@ Pcard::Application.routes.draw do
     end
   end
 
-  root :to => 'cards'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
