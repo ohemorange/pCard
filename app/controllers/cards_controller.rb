@@ -37,6 +37,10 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
     @backgrounds = Background.all
     @designs = Design.all
+    respond_to do |format|
+      format.html # edit.html.erb
+      format.json { render :json => @card }
+    end
   end
 
   # POST /cards
