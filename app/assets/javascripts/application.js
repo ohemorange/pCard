@@ -23,15 +23,15 @@ $(document).ready(function(){
 	
 	// shadow on mouseover
 	$('.preview').mouseover(function () {
-		$(this).addClass('.box-shadow');
+		$(this).addClass('box-shadow');
 	})
 	.mousedown(function() {
-		$(this).removeClass('.box-shadow';
+		$(this).removeClass('box-shadow';
 	})
 	.mouseup(function() {
-		$(this).addClass('.box-shadow');
+		$(this).addClass('box-shadow');
 	})
 	.mouseleave(function() {
-		$(this).removeClass('.box-shadow';
+		$(this).removeClass('box-shadow';
 	});
 });
