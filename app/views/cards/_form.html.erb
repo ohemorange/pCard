@@ -12,19 +12,19 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :from %><br />
+    <h2><%= f.label :from %><br /></h2>
     <%= f.text_field :from %>
   </div>
   <div class="field">
-    <%= f.label :to %><br />
+    <h2><%= f.label :to %><br /></h2>
     <%= f.text_field :to %>
   </div>
   <div class="field">
-    <%= f.label :message %><br />
+    <h2><%= f.label :message %><br /></h2>
     <%= f.text_area :message %>
   </div>
   <div class="field">
-    <%= f.label :bg %><br />
+    <h2><%= f.label :bg %><br /></h2>
     <table>
       <tr>
       <% @backgrounds.each do |background| %>
@@ -35,7 +35,7 @@
     <%= f.hidden_field :bg %>
   </div>
   <div class="field">
-    <%= f.label :design %><br />
+    <h2><%= f.label :design %><br /></h2>
     <table>
       <tr>
       <% @designs.each do |design| %>
