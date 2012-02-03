@@ -43,7 +43,12 @@
     <table>
       <tr>
       <% @designs.each do |design| %>
-        <td><img class="preview" src="<%= design.file %>"/></td>
+        <td>
+        <label class = "radio">
+          <%= image_tag(design.file, :class => "preview", :size => "301x200") %><br/>
+          <%= f.radio_button(:design, design.file) %>
+        </label>
+        </td>
       <% end %>
       </tr>
     </table>
