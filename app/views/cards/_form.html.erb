@@ -28,7 +28,7 @@
     <table>
       <tr>
       <% @backgrounds.each do |background| %>
-        <td><img class="preview" src="<%= background.file %>"/></td>
+        <td><%= link_to image_tag background.file, {:action => :home}, {:class => "preview"} %></td>
       <% end %>
       </tr>
     </table>
