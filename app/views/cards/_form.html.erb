@@ -14,18 +14,27 @@
   <div class="carousel">
     <div class = "carousel-inner">
       <div class="field item">
+        <div class="carousel-caption">
+        <h4>Sending information</h4>
+        </div>
+        <p>
         <%= f.label :from %>
         <%= f.text_field :from %>
         <img src = "http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg"/>
         <%= f.label :to %><br />
         <%= f.text_field :to %>
+        </p>
       </div>
       <div class="field item">
-        <%= f.label :message %><br />
+        <div class="carousel-caption">
+        <h4>Write your message</h4>
+        </div>
         <%= f.text_area :message %>
       </div>
       <div class="field item">
-        <%= f.label :bg %><br />
+        <div class="carousel-caption">
+        <h4>Choose a background image</h4>
+        </div>
         <table>
         <tr>
         <% @backgrounds.each do |background| %>
@@ -36,7 +45,9 @@
         <%= f.hidden_field :bg %>
       </div>
       <div class="field item active">
-        <%= f.label :design %><br />
+        <div class="carousel-caption">
+        <h4>Choose a design</h4>
+        </div>
         <table>
         <tr>
         <% @designs.each do |design| %>
