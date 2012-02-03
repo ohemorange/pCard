@@ -1,5 +1,5 @@
 Pcard::Application.routes.draw do
-  root :to => 'cards#main'
+  root :to => 'cards#index'
 
   resources :designs
 
