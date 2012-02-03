@@ -19,7 +19,8 @@
 
 .carousel-caption {
 	top:0;
-	background:none;
+	height:100px;
+	background:#ffffff;
 	background:rgba(0,0,0,0);
 }
 .carousel-caption h4,.carousel-caption p {
