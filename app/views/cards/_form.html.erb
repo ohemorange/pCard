@@ -28,7 +28,12 @@
     <table>
       <tr>
       <% @backgrounds.each do |background| %>
-        <td><%= image_tag(background.file, :class => "preview", :height => "200") %></td>
+        <td>
+        <label class = "radio">
+          <%= image_tag(background.file, :class => "preview", :size => "301x200") %>
+          <%= radio_button(:card, :bg, background.file) %>
+        </label>
+        </td>
       <% end %>
       </tr>
     </table>
