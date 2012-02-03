@@ -13,7 +13,7 @@
  *= require twitter/bootstrap
 */
 
-label .radio img
+label .radio
 {
 text-align:center;
 }
