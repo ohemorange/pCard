@@ -1,31 +1,3 @@
-<h1>Listing cards</h1>
+<h1>Welcome!</h1>
 
-<table>
-  <tr>
-    <th>From</th>
-    <th>To</th>
-    <th>Message</th>
-    <th>Bg</th>
-    <th>Design</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @cards.each do |card| %>
-  <tr>
-    <td><%= card.from %></td>
-    <td><%= card.to %></td>
-    <td><%= card.message %></td>
-    <td><%= card.bg %></td>
-    <td><%= card.design %></td>
-    <td><%= link_to 'Show', card %></td>
-    <td><%= link_to 'Edit', edit_card_path(card) %></td>
-    <td><%= link_to 'Destroy', card, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Card', new_card_path %>
+<%= button_to 'New Card', new_card_path, :method => :get %>
