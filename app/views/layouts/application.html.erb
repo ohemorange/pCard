@@ -9,13 +9,11 @@
 <body>
 	<header>
         <%= image_tag("crest.gif", :alt => "Princeton Crest", :class => "crest", :size => "72x80") %>
-        <nav class="round">
           <ul class = "nav nav-pills">
             <li><%= link_to "Home", '#' %></li>
             <li><%= link_to "Create", '#' %></li>
             <li><%= link_to "About", '#' %></li>
           </ul>
-        </nav>
     </header>
 
 <%= yield %>

@@ -30,7 +30,7 @@
       <% @backgrounds.each do |background| %>
         <td>
         <label class = "radio">
-          <%= image_tag(background.file, :class => "preview", :size => "301x200") %><br/>
+          <%= image_tag(background.file, :class => "preview", :size => "301x200") %>
           <%= f.radio_button(:bg, background.file) %>
         </label>
         </td>
@@ -45,7 +45,7 @@
       <% @designs.each do |design| %>
         <td>
         <label class = "radio">
-          <%= image_tag(design.file, :class => "preview", :size => "301x200") %><br/>
+          <%= image_tag(design.file, :class => "preview", :size => "301x200") %>
           <%= f.radio_button(:design, design.file) %>
         </label>
         </td>
@@ -55,6 +55,6 @@
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Preview" %>
   </div>
 <% end %>
