@@ -13,21 +13,21 @@
   <div class ="row">
     <div class="span6">
       <div class="field">
-        <%= f.label "From" %><br />
+        <%= f.label :from %>
         <%= f.text_field :from, :class => "span4" %>
       </div>
       <div class="field">
-        <%= f.label "To" %><br />
+        <%= f.label :to %>
         <%= f.text_field :to, :class => "span4" %>
       </div>
       <div class="field">
-        <%= f.label "Recipient email address" %> 
+        <%= f.label "recipient email address" %> 
         <%= f.text_field :recipient, :class => "span4" %>
       </div>
     </div>
     <div class="span6">
       <div class="field">
-        <%= f.label "Message" %><br />
+        <%= f.label :message %>
         <%= f.text_area :message, :class => "span6" %>
       </div>
     </div>
@@ -35,7 +35,7 @@
   <div class="row">
   <div class="span12">
   <div class="field">
-    <%= f.label "Background image" %><br />
+    <%= f.label "background image" %>
     <table>
       <tr>
       <% @backgrounds.each do |background| %>
@@ -54,7 +54,7 @@
   <div class="row">
   <div class="span12">
   <div class="field">
-    <%= f.label "Design" %><br />
+    <%= f.label :design %>
     <table>
       <tr>
       <% @designs.each do |design| %>
@@ -71,7 +71,7 @@
   </div>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Preview" %>
+  <div class="actions form-actions">
+    <%= f.submit "Preview", :type => "submit", :class => "btn btn-primary" %>
   </div>
 <% end %>
