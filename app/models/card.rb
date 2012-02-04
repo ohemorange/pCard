@@ -10,9 +10,9 @@ class Card < ActiveRecord::Base
 	validates :to, :presence => true, 
                     :length => {:minimum => 3, :maximum => 254},
                     :uniqueness => true,
-                    :to => true
+                    :format => {:with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i}
     validates :from, :presence => true, 
                     :length => {:minimum => 3, :maximum => 254},
                     :uniqueness => true,
-                    :from => true
+                    :format => {:with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i}
 end
