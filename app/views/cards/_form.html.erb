@@ -36,18 +36,19 @@
   <div class="span12">
   <div class="field">
     <%= f.label "background image" %>
-    <table>
-      <tr>
-      <% @backgrounds.each do |background| %>
-        <td>
-        <label class = "radio">
-          <%= image_tag(background.file, :class => "preview", :size => "301x200") %>
-          <%= f.radio_button(:bg, background.file) %>
-        </label>
-        </td>
-      <% end %>
-      </tr>
-    </table>
+
+    <ul class="thumbnails">
+    <% @backgrounds.each do |background| %>
+      <li class="span3">
+        <div class="thumbnail">
+          <label class = "radio">
+            <%= image_tag(background.file, :class => "preview", :size => "301x200") %>
+            <%= f.radio_button(:bg, background.file) %>
+          </label>
+        </div>
+      </li>
+    <% end %>
+    </ul>
   </div>
   </div>
   </div>
