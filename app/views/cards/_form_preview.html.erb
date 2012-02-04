@@ -1,0 +1,31 @@
+<%= form_for(@card) do |f| %>
+  <p>
+  <b>From:</b>
+  <%= @card.from %>
+</p>
+
+<p>
+  <b>To:</b>
+  <%= @card.to %>
+</p>
+
+<p>
+  <b>Recipient:</b>
+  <%= @card.recipient %>
+</p>
+
+<p>
+  <b>Message:</b>
+  <%= @card.message %>
+</p>
+
+<p>
+  <b>Bg:</b>
+  <%= @card.bg %>
+</p>
+
+<p>
+  <b>Design:</b>
+  <%= @card.design %>
+</p>
+<% end %>

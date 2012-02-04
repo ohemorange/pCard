@@ -1,29 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>From:</b>
-  <%= @card.from %>
-</p>
-
-<p>
-  <b>To:</b>
-  <%= @card.to %>
-</p>
-
-<p>
-  <b>Message:</b>
-  <%= @card.message %>
-</p>
-
-<p>
-  <b>Bg:</b>
-  <%= @card.bg %>
-</p>
-
-<p>
-  <b>Design:</b>
-  <%= @card.design %>
-</p>
+<%= render 'form_preview' %>
 
 
 <%= button_to 'Edit', edit_card_path(@card), :method => :get %>
