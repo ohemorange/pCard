@@ -7,10 +7,10 @@ class Card < ActiveRecord::Base
 		:presence => true, 
 		:with =>  %r{\.(gif|jpg|jpeg|png)$}i,
 		:message => "must be file for a GIF, JPG, JPEG, or PNG image"
-	validates :to, :presence => true, 
+	validates :to, :presence => true
+    validates :from, :presence => true
+    validates :recipient, :presence => true, 
                     :length => {:minimum => 3, :maximum => 254},
                     :format => {:with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i}
-    validates :from, :presence => true, 
-                    :length => {:minimum => 3, :maximum => 254},
-                    :format => {:with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i}
+                    
 end
