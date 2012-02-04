@@ -14,4 +14,3 @@
 //= require jquery_ujs
 //= require_tree .
 //= require twitter/bootstrap
-//= require less-1.2.1.min
