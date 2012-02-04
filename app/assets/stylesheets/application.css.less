@@ -1,0 +1,17 @@
+@import "twitter/bootstrap";
+
+@navBarBgStart: #3D368B;
+@navBarBgEnd: #232051;
+
+.dropdown-menu {
+    background-color: #2F2A6C; // defaults to #333
+
+	li a {
+	      color: #999;
+	      text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	      &:hover {
+	        #gradient > .vertical(@navBarBgEnd, #1B183E);
+	        color: @white;
+			}
+	}
+}
