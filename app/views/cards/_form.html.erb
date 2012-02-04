@@ -11,22 +11,30 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :from %><br />
-    <%= f.text_field :from %>
+  <div class ="row">
+    <div class="span6">
+      <div class="field">
+        <%= f.label :from %><br />
+        <%= f.text_field :from %>
+      </div>
+      <div class="field">
+        <%= f.label :to %><br />
+        <%= f.text_field :to %>
+      </div>
+      <div class="field">
+        <%= f.label "recipient email address" %> 
+        <%= f.text_field :recipient %>
+      </div>
+    </div>
+    <div class="span6">
+      <div class="field">
+        <%= f.label :message %><br />
+        <%= f.text_area :message %>
+      </div>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :to %><br />
-    <%= f.text_field :to %>
-  </div>
-  <div class="field">
-    <%= f.label "recipient email address" %> 
-    <%= f.text_field :recipient %>
-  </div>
-  <div class="field">
-    <%= f.label :message %><br />
-    <%= f.text_area :message %>
-  </div>
+  <div class="row">
+  <div class="span12">
   <div class="field">
     <%= f.label :bg %><br />
     <table>
@@ -42,6 +50,10 @@
       </tr>
     </table>
   </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="span12">
   <div class="field">
     <%= f.label :design %><br />
     <table>
@@ -56,6 +68,8 @@
       <% end %>
       </tr>
     </table>
+  </div>
+  </div>
   </div>
 
   <div class="actions">
