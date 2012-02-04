@@ -21,3 +21,5 @@ margin:auto;
 
 .radio{padding-left:0px}
 .radio input[type=radio]{float:none;margin-left:0px}
+
+.nav ul li {display:inline;}
