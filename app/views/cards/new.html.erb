@@ -2,4 +2,4 @@
 
 <%= render 'form' %>
 
-<%= button_to "Cancel", cards_path, :method => :get %>
+<%= button_to "Cancel", cards_path, :method => :get, card, :confirm => 'Are you sure?', :method => :delete %>
