@@ -39,12 +39,12 @@
     <ul class="thumbnails">
     <% @backgrounds.each do |background| %>
       <li class="span3">
-        <a href="#" class="thumbnail">
+        <div class="thumbnail">
           <label class = "radio">
-            <%= image_tag(background.file, :class => "preview") %>
+            <a href="#"><%= image_tag(background.file, :class => "preview") %></a>
             <%= f.radio_button(:bg, background.file) %>
           </label>
-        </a>
+        </div>
       </li>
     <% end %>
     </ul>
@@ -58,12 +58,12 @@
     <ul class="thumbnails">
     <% @designs.each do |design| %>
       <li class="span3">
-        <a href="#" class="thumbnail">
+        <div class="thumbnail">
           <label class = "radio">
-            <%= image_tag(design.file, :class => "preview") %>
+            <a href="#"><%= image_tag(design.file, :class => "preview") %></a>
             <%= f.radio_button(:design, design.file) %>
           </label>
-        </a>
+        </div>
       </li>
     <% end %>
     </ul>
