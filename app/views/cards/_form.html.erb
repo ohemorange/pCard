@@ -12,23 +12,23 @@
   <% end %>
 
   <div class="field">
-    <h2><%= f.label :from %><br /></h2>
+    <%= f.label :from %><br />
     <%= f.text_field :from %>
   </div>
   <div class="field">
-    <h2><%= f.label :to %><br /></h2>
+    <%= f.label :to %><br />
     <%= f.text_field :to %>
   </div>
   <div class="field">
-    <h2><%= f.label :recipient %> email address</h2>
+    <%= f.label ":recipient email address" %> 
     <%= f.text_field :recipient %>
   </div>
   <div class="field">
-    <h2><%= f.label :message %><br /></h2>
+    <%= f.label :message %><br />
     <%= f.text_area :message %>
   </div>
   <div class="field">
-    <h2><%= f.label :bg %><br /></h2>
+    <%= f.label :bg %><br />
     <table>
       <tr>
       <% @backgrounds.each do |background| %>
@@ -43,7 +43,7 @@
     </table>
   </div>
   <div class="field">
-    <h2><%= f.label :design %><br /></h2>
+    <%= f.label :design %><br />
     <table>
       <tr>
       <% @designs.each do |design| %>
