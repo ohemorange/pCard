@@ -25,6 +25,16 @@ class CardsController < ApplicationController
     end
   end
 
+  def send
+    @card = Card.find(params[:id])
+ 
+    respond_to do |format|
+      UserMailer.delivery_email(@card).deliver
+      format.html { redirect_to sent_card_path }
+      format.json { render :json => @card }
+    end
+  end
+
   def view
     @card = Card.find(params[:id])
 
