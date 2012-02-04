@@ -9,13 +9,14 @@
 - more designs (pal?)
 - fill in backgrounds database with images (I can do this, but if you guys have others)
 - domain name (pal)
-- cancel should delete working card (me)
 
+
+- add admin + random numbers and letters to routes.db to manually clean database (me)  ----> test this
 
 
 
 - validate email addresses (I'll take care of this)
 - stick a cancel button on the "new card" page that takes you back to the homepage (me)
 - add a page for just viewing, same exact thing as show actually but just without the edit and send buttons (me)
-- add admin + random numbers and letters to routes.db to manually clean database (me)  ----> test this
 - cancel on edit page
+- cancel should delete working card (me)

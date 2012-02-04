@@ -9,6 +9,8 @@ Pcard::Application.routes.draw do
     member do
       get 'sent'
       get 'view'
+    end
+    collection do
       get 'admin2345k23g5jh23ffgd31g23d4j234'
     end
   end
