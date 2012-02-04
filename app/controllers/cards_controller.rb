@@ -26,10 +26,11 @@ class CardsController < ApplicationController
   end
 
   def view
-    @cards = Card.all
+    @card = Card.find(params[:id])
+
     respond_to do |format|
       format.html # view.html.erb
-      format.json { render :json => @cards }
+      format.json { render :json => @card }
     end
   end
 
