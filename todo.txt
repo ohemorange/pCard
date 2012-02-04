@@ -1,0 +1,17 @@
+- fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
+- add admin + random numbers and letters to routes.db to manually clean database (me)
+- add users database + interface so people can save cards. this is a big, not-as-vital thing.
+- prettify everything
+- better header
+- write an about page
+- implement send (pal)
+- show card on preview
+- add a page for just viewing, same exact thing as show actually but just without the edit and send buttons (me)
+- more designs (pal?)
+- fill in backgrounds database with images (I can do this, but if you guys have others)
+- domain name (pal)
+
+migrate
+
+- validate email addresses (I'll take care of this)
+- stick a cancel button on the "new card" page that takes you back to the homepage (me)

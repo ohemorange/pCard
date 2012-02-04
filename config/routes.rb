@@ -8,6 +8,8 @@ Pcard::Application.routes.draw do
   resources :cards do
     member do
       get 'sent'
+      get 'view'
+      get 'admin2345k23g5jh23ffgd31g23d4j234'
     end
   end
 

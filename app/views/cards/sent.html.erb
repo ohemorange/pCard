@@ -1,3 +1,4 @@
 <h1>Your card was sent!</h1>
 
 <%= button_to 'Make Another Card', new_card_path, :method => :get %>
+<%= button_to "View your card", view_card_path(@card), :method => :get %>
