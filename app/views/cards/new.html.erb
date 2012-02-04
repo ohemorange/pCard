@@ -2,4 +2,8 @@
 
 <%= render 'form' %>
 
-<%= button_to "Cancel", cards_path, :method => :get, :confirm => 'Are you sure?', :type => "reset", :class => "btn" %>
+<div class="actions form-actions">
+	<%= @card.submit "Preview", :type => "submit", :class => "btn btn-primary" %>
+	<%= button_to "Cancel", cards_path, :method => :get, :confirm => 'Are you sure?', :type => "reset", :class => "btn" %>
+</div>
+
