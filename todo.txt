@@ -8,6 +8,7 @@
 - fill in backgrounds database with images (I can do this, but if you guys have others)
 - domain name (pal)
 
+
 - prettify everything
 	- copy and paste button css into own action css
 
