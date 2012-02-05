@@ -37,16 +37,18 @@
   <div class="field">
     <%= f.label "background image" %>
     <ul class="thumbnails">
+
     <% @backgrounds.each do |background| %>
       <li class="span3">
-        <div class="thumbnail">
-          <label class = "radio">
+        <label class = "radio">
+          <div class="thumbnail">
             <%= image_tag(background.file, :class => "preview") %>
-            <%= f.radio_button(:bg, background.file) %>
-          </label>
-        </div>
+          </div>
+          <%= f.radio_button(:bg, background.file) %>
+        </label>
       </li>
     <% end %>
+
     </ul>
   </div>
   </div>
