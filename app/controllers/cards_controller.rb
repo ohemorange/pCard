@@ -27,11 +27,11 @@ class CardsController < ApplicationController
 
   def send
     @card = Card.find(params[:id])
+    UserMailer.delivery_email(@card).deliver
  
     respond_to do |format|
-      UserMailer.delivery_email(@card).deliver
       format.html { redirect_to sent_card_path }
-      format.json { render :json => @card }
+      format.json { head :no_content }
     end
   end
 
