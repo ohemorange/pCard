@@ -7,6 +7,7 @@
 - more designs (pal?)
 - fill in backgrounds database with images (I can do this, but if you guys have others)
 - domain name (pal)
+- make sent tabbable using twitter's api
 
 
 - prettify everything
