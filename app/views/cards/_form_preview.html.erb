@@ -3,23 +3,36 @@
     <div class ="span9">
       <h2>Hello <%= @card.to %>, here's your card from <%= @card.from %>!</h2>
 
-      <div class ="card thumbnail">
+      
       <% if @card.design == "/assets/wordsbottom.png" %>
-        <div class = "thumbnail">
-          <%= image_tag(@card.bg) %>
-        </div>
-        <div class = "text">
-          <p><%= @card.message %></p>
+        <div class ="card thumbnail">
+          <div class = "thumbnail">
+            <%= image_tag(@card.bg) %>
+          </div>
+          <div class = "text">
+            <p><%= @card.message %></p>
+          </div>
         </div>
       <% elsif @card.design == "/assets/wordstop.png" %>
-        <div class = "text">
-          <p><%= @card.message %></p>
+        <div class ="card thumbnail">
+          <div class = "text">
+            <p><%= @card.message %></p>
+          </div>
+          <div class = "thumbnail">
+            <%= image_tag(@card.bg) %>
+          </div>
         </div>
-        <div class = "thumbnail">
-          <%= image_tag(@card.bg) %>
+      <% elsif @card.design == "/assets/polaroid.png" %>
+        <div class ="card polaroid">
+          <div class = "thumbnail">
+            <%= image_tag(@card.bg) %>
+          </div>
+          <div class = "text">
+            <p><%= @card.message %></p>
+          </div>
         </div>
       <% end %>
-      </div>
+      
     </div>
   </div>
 <% end %>
