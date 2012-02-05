@@ -2,9 +2,9 @@
 - show card on preview
 - make little previews for designs
 - section header
+- center radio buttons
 
-- write an about page
-- navbar text color
+- my stuff on about page
 - designs (pal?)
 - prettier
 	- copy and paste button css into own action css
@@ -25,6 +25,7 @@
 
 
 
+
 - add admin + random numbers and letters to routes.db to manually clean database (me)
 - validate email addresses (I'll take care of this)
 - stick a cancel button on the "new card" page that takes you back to the homepage (me)
@@ -36,3 +37,6 @@
 - prettify everything
 - make sent tabbable using twitter's api
 - fill in backgrounds database with images (I can do this, but if you guys have others)
+- write an about page
+- navbar text color
+
