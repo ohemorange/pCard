@@ -7,14 +7,14 @@
   <%= csrf_meta_tags %>
   <script type='text/javascript'>
       $(document).ready(function() {
-          $('.input :radio').focus(updateSelectedStyle);
-          $('.input :radio').blur(updateSelectedStyle);
-          $('.input :radio').change(updateSelectedStyle);
+          $('label .radio').focus(updateSelectedStyle);
+          $('label .radio').blur(updateSelectedStyle);
+          $('label .radio').change(updateSelectedStyle);
       })
 
       function updateSelectedStyle() {
-          $('label.radio').removeClass('focused').next().removeClass('focused');
-          $('label.radio.checked').addClass('focused').next().addClass('focused');
+          $('.thumbnail').removeClass('focused').next().removeClass('focused');
+          $('.thumbnail').addClass('focused').next().addClass('focused');
       }
   </script>
 </head>
