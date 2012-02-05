@@ -4,7 +4,7 @@
 <%= render 'form_preview' %>
 
 <p>This card will be sent to <%= @card.recipient %>.</p>
+<%= button_to "Send!", sent_card_path(@card), :method => :get, :class => "btn btn-success btn-large" %>
 <%= button_to 'Edit', edit_card_path(@card), :method => :get, :class => "btn" %>
-<%= button_to "Send!", sent_card_path(@card), :method => :get, :class => "btn btn-success" %>
 <%= button_to "View Without Sending", view_card_path(@card), :method => :get, :class => "btn"%>
 <p>If you click "View Without Sending", your card will not be sent.</p>
