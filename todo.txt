@@ -1,8 +1,8 @@
 - center radio buttons
-- give cards a shadow
 - test mobile
 - text on card bigger
-- make a card button looks really puny
+- make a card button looks really not-puny
+- form bg color
 
 
 - success of sent on sent page
@@ -54,5 +54,5 @@
 - section header
 - polaroid
 - view without sending
-
+- give cards a shadow
 
