@@ -18,7 +18,6 @@ Pcard::Application.routes.draw do
   end
 
   get "pages/about"
-  match "/about" => "pages/about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
