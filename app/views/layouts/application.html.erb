@@ -5,6 +5,24 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <style type='text/css'>
+    .input label.focused
+    {
+        border: 2px solid #333;
+    }
+  </style>
+  <script type='text/javascript'>
+      $(document).ready(function() {
+          $('.input :radio').focus(updateSelectedStyle);
+          $('.input :radio').blur(updateSelectedStyle);
+          $('.input :radio').change(updateSelectedStyle);
+      })
+
+      function updateSelectedStyle() {
+          $('.input :radio').removeClass('focused').next().removeClass('focused');
+          $('.input :radio:checked').addClass('focused').next().addClass('focused');
+      }
+  </script>
 </head>
 <body>
   <div class="navbar">
