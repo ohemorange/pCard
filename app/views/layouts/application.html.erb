@@ -9,16 +9,16 @@
   <script type='text/javascript'>
       $(document).ready(function() {
           $('.thumbnail').mouseover(function () {
-              $(this).addClass('focused');
+              $(this).addClass('shadow');
           })
           .mousedown(function () {
-              $(this).removeClass('focused');
+              $(this).removeClass('shadow');
           })
           .mouseup(function () {
-              $(this).addClass('focused');
+              $(this).addClass('shadow');
           })
           .mouseleave(function () {
-              $(this).removeClass('focused');
+              $(this).removeClass('shadow');
           });
       })
   </script>
