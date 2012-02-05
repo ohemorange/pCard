@@ -7,15 +7,19 @@
   <%= csrf_meta_tags %>
   <script type='text/javascript'>
       $(document).ready(function() {
-          $('label .radio').focus(updateSelectedStyle);
-          $('label .radio').blur(updateSelectedStyle);
-          $('label .radio').change(updateSelectedStyle);
+          $('.thumbnail').mouseover(function () {
+              $(this).addClass('focused');
+          })
+          .mousedown(function () {
+              $(this).removeClass('focused');
+          })
+          .mouseup(function () {
+              $(this).addClass('focused');
+          })
+          .mouseleave(function () {
+              $(this).removeClass('focused');
+          });
       })
-
-      function updateSelectedStyle() {
-          $('.thumbnail').removeClass('focused').next().removeClass('focused');
-          $('.thumbnail').addClass('focused').next().addClass('focused');
-      }
   </script>
 </head>
 <body>
