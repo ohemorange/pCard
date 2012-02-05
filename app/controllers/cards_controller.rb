@@ -97,7 +97,7 @@ class CardsController < ApplicationController
 
     respond_to do |format|
       if @card.update_attributes(params[:card])
-        format.html { redirect_to @card}
+        format.html { redirect_to view_card_path(@card)}
         format.json { head :no_content }
       else
         format.html { render :action => "edit" }
