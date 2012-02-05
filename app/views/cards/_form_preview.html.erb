@@ -24,8 +24,10 @@
         </div>
       <% elsif @card.design == "/assets/polaroid.png" %>
         <div class ="card polaroid">
-          <div class = "thumbnail">
-            <%= image_tag(@card.bg) %>
+          <div class = "thumbcontain">
+            <div class = "thumbnail">
+              <%= image_tag(@card.bg) %>
+            </div>
           </div>
           <div class = "text">
             <p><%= @card.message %></p>

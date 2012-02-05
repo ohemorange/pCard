@@ -1,5 +1,6 @@
 - center radio buttons
-- polaroid
+- give cards a shadow
+- main page design
 
 - my stuff on about page
 - designs (pal?)
@@ -42,4 +43,6 @@
 - show card on preview
 - make little previews for designs
 - section header
+- polaroid
+
 
