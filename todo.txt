@@ -1,8 +1,10 @@
 - center radio buttons
 - test mobile
-- text on card bigger
 - make a card button looks really not-puny
 - form bg color
+- contact page
+- suggest a layout
+- submit an image
 
 
 - success of sent on sent page
@@ -30,6 +32,11 @@
 - samples
 - show different designs based on vertical or horizontal
 	- easy to do if put on different pages in the first place
+
+
+- text on card bigger
+
+
 
 
 
