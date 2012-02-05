@@ -1,9 +1,7 @@
+- support for line breaks in text
+- star indicates required field
+- from field and make that the from in the email
 - success of sent on sent page
-
-- designs (pal?)
-- prettier
-	- copy and paste button css into own action css
-	- add margins/padding
 - add more backgrounds
 - enter your email if you want to receive confirmation email
 	- if has content send email
@@ -18,6 +16,8 @@
 	http://www.princeton.edu/~eportnoy/_Media/statue.jpg
 	http://www.princeton.edu/~eportnoy/_Media/DSC00621.JPG
 	http://www.princeton.edu/~eportnoy/_Media/dsc00708.jpeg
+
+
 
 - hovering action on the new card page
 - domain name (pal)
@@ -77,3 +77,6 @@
 - footer with about and our names
 - possibly center footer on main page
 - my stuff on about page
+- prettier
+	- copy and paste button css into own action css
+	- add margins/padding
