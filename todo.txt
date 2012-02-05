@@ -16,6 +16,7 @@
 	http://www.princeton.edu/~eportnoy/_Media/statue.jpg
 	http://www.princeton.edu/~eportnoy/_Media/DSC00621.JPG
 	http://www.princeton.edu/~eportnoy/_Media/dsc00708.jpeg
+- sign in with facebook
 
 
 
@@ -33,7 +34,7 @@
 - samples
 - show different designs based on vertical or horizontal
 	- easy to do if put on different pages in the first place
-
+- tiger stripes on homepage bg
 
 
 
