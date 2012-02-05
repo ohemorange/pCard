@@ -9,11 +9,11 @@
           <%= image_tag(@card.bg) %>
         </div>
         <div class = "text">
-          <p></br><%= @card.message %></p>
+          <p><%= @card.message %></p>
         </div>
       <% elsif @card.design == "/assets/wordstop.png" %>
         <div class = "text">
-          <p><%= @card.message %></br></p>
+          <p><%= @card.message %></p>
         </div>
         <div class = "thumbnail">
           <%= image_tag(@card.bg) %>
