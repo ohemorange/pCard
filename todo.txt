@@ -1,8 +1,5 @@
-- contact page
-- possibly center footer on main page
-
 - success of sent on sent page
-- my stuff on about page
+
 - designs (pal?)
 - prettier
 	- copy and paste button css into own action css
@@ -78,4 +75,5 @@
 - notify instead of text
 - wtf is the from doing
 - footer with about and our names
-
+- possibly center footer on main page
+- my stuff on about page

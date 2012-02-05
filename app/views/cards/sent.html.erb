@@ -4,5 +4,9 @@
 <%= button_to "View Your pCard", @card, :method => :get, :class => "btn"%>
 
 <p>Your pCard's url:</p>
-<p><%= link_to card_url(@card, :host => "evening-rain-9704.herokuapp.com") %></p>
+<p>
+<%= link_to(@card) do %>
+  <%= card_url(@card, :host => "evening-rain-9704.herokuapp.com") %>
+<% end %>
+</p>
 <%= render "shared/footer" %>
