@@ -79,7 +79,7 @@ class CardsController < ApplicationController
 
     respond_to do |format|
       if @card.save
-        format.html { redirect_to @card}
+        format.html { redirect_to view_card_path(@card)}
         format.json { render :json => @card, :status => :created, :location => @card }
       else
         format.html { render :action => "new" }
