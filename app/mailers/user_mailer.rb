@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def delivery_email(card)
     @card = card
-    @url  = card_url(@card)
+    @url  = card_url(@card, :host => "evening-rain-9704.herokuapp.com")
     mail(:to => card.recipient, :subject => "You've received a Princeton Greeting Card!")
   end
 

@@ -4,4 +4,4 @@
 <%= button_to "View your card", show_card_path(@card), :method => :get, :class => "btn"%>
 
 <p>Your card's url:</p>
-<p><%= card_url(@card) %></p>
+<p><%= card_url(@card, :host => "evening-rain-9704.herokuapp.com") %></p>
