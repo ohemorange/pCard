@@ -1,5 +1,6 @@
 
 - show card on preview
+- make little previews for designs
 
 - write an about page
 - navbar text color
