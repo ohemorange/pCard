@@ -1,8 +1,8 @@
-<div class="page-header jumbotron subhead"><h1>Your card was sent!</h1></div>
+<div class="page-header jumbotron subhead"><h1>Your pCard was sent!</h1></div>
 
-<%= button_to 'Make Another Card', new_card_path, :method => :get, :class => "btn" %>
-<%= button_to "View your card", @card, :method => :get, :class => "btn"%>
+<%= button_to 'Make Another pCard', new_card_path, :method => :get, :class => "btn" %>
+<%= button_to "View Your pCard", @card, :method => :get, :class => "btn"%>
 
-<p>Your card's url:</p>
+<p>Your pCard's url:</p>
 <p><%= link_to card_url(@card, :host => "evening-rain-9704.herokuapp.com") %></p>
 <%= render "shared/footer" %>
