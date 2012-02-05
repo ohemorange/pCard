@@ -1,4 +1,5 @@
 - contact page
+- possibly center footer on main page
 
 - success of sent on sent page
 - my stuff on about page
