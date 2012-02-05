@@ -1,19 +1,19 @@
 <%= form_for(@card) do |f| %>
   <div class ="row">
-    <div class ="span10">
+    <div class ="span9">
       <h2>Hello <%= @card.to %>, here's your card from <%= @card.from %>!</h2>
 
-      <div class ="card">
+      <div class ="card thumbnail">
       <% if @card.design == "/assets/wordsbottom.png" %>
         <div class = "thumbnail">
           <%= image_tag(@card.bg) %>
         </div>
         <div class = "text">
-          <p><%= @card.message %></p>
+          <p></br><%= @card.message %></p>
         </div>
       <% elsif @card.design == "/assets/wordstop.png" %>
         <div class = "text">
-          <p><%= @card.message %></p>
+          <p><%= @card.message %></br></p>
         </div>
         <div class = "thumbnail">
           <%= image_tag(@card.bg) %>
