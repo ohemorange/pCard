@@ -1,3 +1,5 @@
+- sign in with facebook -> post pcard to fb wall
+
 - support for line breaks in text
 - star indicates required field
 - from field and make that the from in the email
@@ -16,11 +18,11 @@
 	http://www.princeton.edu/~eportnoy/_Media/statue.jpg
 	http://www.princeton.edu/~eportnoy/_Media/DSC00621.JPG
 	http://www.princeton.edu/~eportnoy/_Media/dsc00708.jpeg
-- sign in with facebook
 - monetize: ad-supported, tiger app, physical card, give it to the admissions office
+- test in opera
+- arrange images by popularity (keep black squirrel and girl walking last)
 
 TO DO NOW
-- remove shadow transition
 - put in ad-sense
 
 
@@ -84,3 +86,4 @@ TO DO NOW
 - prettier
 	- copy and paste button css into own action css
 	- add margins/padding
+- remove shadow transition
