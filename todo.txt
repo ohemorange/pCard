@@ -1,6 +1,8 @@
 - center radio buttons
 - give cards a shadow
-- main page design
+- test mobile
+- text on card bigger
+- make a card button looks really puny
 
 
 - success of sent on sent page
@@ -45,6 +47,8 @@
 - fill in backgrounds database with images (I can do this, but if you guys have others)
 - write an about page
 - navbar text color
+- main page design
+- test resizing
 - show card on preview
 - make little previews for designs
 - section header
