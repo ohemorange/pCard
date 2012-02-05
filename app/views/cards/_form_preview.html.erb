@@ -1,31 +1,25 @@
 <%= form_for(@card) do |f| %>
-  <p>
-  <b>From:</b>
-  <%= @card.from %>
-</p>
+  <div class ="row">
+    <div class ="span10">
+      <h2>Hello <%= @card.to %>, here's your card from <%= @card.from %>!</h2>
 
-<p>
-  <b>To:</b>
-  <%= @card.to %>
-</p>
-
-<p>
-  <b>Recipient:</b>
-  <%= @card.recipient %>
-</p>
-
-<p>
-  <b>Message:</b>
-  <%= @card.message %>
-</p>
-
-<p>
-  <b>Bg:</b>
-  <%= @card.bg %>
-</p>
-
-<p>
-  <b>Design:</b>
-  <%= @card.design %>
-</p>
+      <div class ="card">
+      <%= if @card.design == "/assets/wordsbottom.png" %>
+        <div class = "thumbnail">
+          <%= image_tag(@card.bg) %>
+        </div>
+        <div class = "text">
+          <p><%= @card.message %></p>
+        </div>
+      <%= elsif @card.design == "/assets/wordstop.png" %>
+        <div class = "text">
+          <p><%= @card.message %></p>
+        </div>
+        <div class = "thumbnail">
+          <%= image_tag(@card.bg) %>
+        </div>
+      <%= end %>
+      </div>
+    </div>
+  </div>
 <% end %>

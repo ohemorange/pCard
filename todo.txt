@@ -15,6 +15,11 @@
 - add users database + interface so people can save cards. this is a big, not-as-vital thing.
 - add user upload functionality.
 - have rebecca test website
+- sent boolean, only allow send once/test for sent twice
+- pictures in proper place
+	http://codeglot.com/posts/68-upoading_pictures_to_apps_on_heroku
+	http://aws.amazon.com/s3/#pricing
+- samples
 
 
 
@@ -29,3 +34,5 @@
 - prettify everything
 - make sent tabbable using twitter's api
 - fill in backgrounds database with images (I can do this, but if you guys have others)
+
+== or ===
