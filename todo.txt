@@ -2,7 +2,8 @@
 - show card on preview
 
 - write an about page
-- more designs (pal?)
+- navbar text color
+- designs (pal?)
 - prettier
 	- copy and paste button css into own action css
 	- add margins/padding
@@ -12,6 +13,7 @@
 - add admin + random numbers and letters to routes.db to manually clean database, others too (me)
 - fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
 - add users database + interface so people can save cards. this is a big, not-as-vital thing.
+- add user upload functionality.
 - have rebecca test website
 
 
