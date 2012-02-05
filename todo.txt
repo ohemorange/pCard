@@ -2,12 +2,17 @@
 - give cards a shadow
 - main page design
 
+
+- success of sent on sent page
 - my stuff on about page
 - designs (pal?)
 - prettier
 	- copy and paste button css into own action css
 	- add margins/padding
 - add more backgrounds
+- enter your email if you want to receive confirmation email
+	- if has content send email
+		- but maybe not such a good idea because then the 200 will fill up faster
 
 - hovering action on the new card page
 - domain name (pal)
@@ -44,5 +49,6 @@
 - make little previews for designs
 - section header
 - polaroid
+- view without sending
 
 
