@@ -18,20 +18,12 @@ class CardsController < ApplicationController
   end
 
   def sent
-    @cards = Card.all # and now it's a get method.
+    @card = Card.find(params[:id])
+    UserMailer.delivery_email(@card).deliver
+
     respond_to do |format|
       format.html # sent.html.erb
       format.json { render :json => @cards }
-    end
-  end
-
-  def send
-    @card = Card.find(params[:id])
-    UserMailer.delivery_email(@card).deliver
- 
-    respond_to do |format|
-      format.html { redirect_to sent_card_path }
-      format.json { head :no_content }
     end
   end
 
