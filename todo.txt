@@ -1,7 +1,4 @@
 - contact page
-- footer with about and our names
-- vertical picture sizes
-
 
 - success of sent on sent page
 - my stuff on about page
@@ -17,6 +14,12 @@
 - center radio buttons
 - suggest a layout
 - submit an image
+- horizontal layouts
+	- vertical width >= 940px
+	http://www.princeton.edu/~eportnoy/_Media/DSC00653.JPG
+	http://www.princeton.edu/~eportnoy/_Media/statue.jpg
+	http://www.princeton.edu/~eportnoy/_Media/DSC00621.JPG
+	http://www.princeton.edu/~eportnoy/_Media/dsc00708.jpeg
 
 - hovering action on the new card page
 - domain name (pal)
@@ -73,4 +76,5 @@
 - edit>preview and sent do not work, preview>sent does.
 - notify instead of text
 - wtf is the from doing
+- footer with about and our names
 
