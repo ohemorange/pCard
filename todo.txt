@@ -1,8 +1,5 @@
-
-- show card on preview
-- make little previews for designs
-- section header
 - center radio buttons
+- polaroid
 
 - my stuff on about page
 - designs (pal?)
@@ -22,6 +19,8 @@
 	http://codeglot.com/posts/68-upoading_pictures_to_apps_on_heroku
 	http://aws.amazon.com/s3/#pricing
 - samples
+- show different designs based on vertical or horizontal
+	- easy to do if put on different pages in the first place
 
 
 
@@ -39,4 +38,7 @@
 - fill in backgrounds database with images (I can do this, but if you guys have others)
 - write an about page
 - navbar text color
+- show card on preview
+- make little previews for designs
+- section header
 
