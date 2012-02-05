@@ -1,10 +1,11 @@
 - center radio buttons
 - test mobile
-- make a card button looks really not-puny
-- form bg color
 - contact page
 - suggest a layout
 - submit an image
+- font on card color and line spacing
+- footer with about and our names
+
 
 
 - success of sent on sent page
@@ -34,7 +35,8 @@
 	- easy to do if put on different pages in the first place
 
 
-- text on card bigger
+
+
 
 
 
@@ -62,4 +64,7 @@
 - polaroid
 - view without sending
 - give cards a shadow
-
+- form, input, and button_to and also btn
+- form bg color
+- make a card button looks really puny
+- text on card bigger
