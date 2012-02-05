@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  # default :from => "from@example.com"
+  default :from => "no-reply@evening-rain-9704.herokuapp.com"
 
   def delivery_email(card)
     @card = card
