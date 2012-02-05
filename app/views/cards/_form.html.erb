@@ -12,6 +12,7 @@
   <% end %>
   <div class ="row">
     <div class="span6">
+    <h2>Information</h2>
       <div class="field">
         <%= f.label :from %>
         <%= f.text_field :from, :class => "span4" %>
@@ -27,7 +28,7 @@
     </div>
     <div class="span6">
       <div class="field">
-        <%= f.label :message %>
+        <h2><%= f.label :message %></h2>
         <%= f.text_area :message, :class => "span6 message" %>
       </div>
     </div>
@@ -35,7 +36,7 @@
   <div class="row">
   <div class="span12">
   <div class="field">
-    <%= f.label "background image" %>
+    <h2><%= f.label "Princeton Image" %></h2>
     <ul class="thumbnails">
 
     <% @backgrounds.each do |background| %>
@@ -58,7 +59,7 @@
   <div class="row">
   <div class="span12">
   <div class="field">
-    <%= f.label :design %>
+    <h2><%= f.label "Layout" %></h2>
     <ul class="thumbnails">
     <% @designs.each do |design| %>
       <li class="span3">

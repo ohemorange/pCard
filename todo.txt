@@ -1,6 +1,7 @@
 
 - show card on preview
 - make little previews for designs
+- section header
 
 - write an about page
 - navbar text color
@@ -35,5 +36,3 @@
 - prettify everything
 - make sent tabbable using twitter's api
 - fill in backgrounds database with images (I can do this, but if you guys have others)
-
-== or ===
