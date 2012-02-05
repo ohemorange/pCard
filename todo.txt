@@ -17,7 +17,11 @@
 	http://www.princeton.edu/~eportnoy/_Media/DSC00621.JPG
 	http://www.princeton.edu/~eportnoy/_Media/dsc00708.jpeg
 - sign in with facebook
+- monetize: ad-supported, tiger app, physical card, give it to the admissions office
 
+TO DO NOW
+- remove shadow transition
+- put in ad-sense
 
 
 - hovering action on the new card page
@@ -27,7 +31,6 @@
 - add users database + interface so people can save cards. this is a big, not-as-vital thing.
 - add user upload functionality.
 - have rebecca test website
-- sent boolean, only allow send once/test for sent twice
 - pictures in proper place
 	http://codeglot.com/posts/68-upoading_pictures_to_apps_on_heroku
 	http://aws.amazon.com/s3/#pricing
