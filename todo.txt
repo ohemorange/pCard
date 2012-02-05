@@ -1,17 +1,19 @@
-- fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
-- add admin + random numbers and letters to routes.db to manually clean database, others too (me)
-- add users database + interface so people can save cards. this is a big, not-as-vital thing.
-- write an about page
-- implement send (pal)
+
 - show card on preview
-- more designs (pal?)
 - fill in backgrounds database with images (I can do this, but if you guys have others)
-- domain name (pal)
-- make sent tabbable using twitter's api
 
-
-- prettify everything
+- write an about page
+- more designs (pal?)
+- prettier
 	- copy and paste button css into own action css
+
+- domain name (pal)
+- add admin + random numbers and letters to routes.db to manually clean database, others too (me)
+- fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
+- add users database + interface so people can save cards. this is a big, not-as-vital thing.
+
+
+
 
 
 - add admin + random numbers and letters to routes.db to manually clean database (me)
@@ -21,3 +23,6 @@
 - cancel on edit page
 - cancel should delete working card (me)
 - better header
+- implement send (pal)
+- prettify everything
+- make sent tabbable using twitter's api
