@@ -1,12 +1,12 @@
 
 - show card on preview
-- fill in backgrounds database with images (I can do this, but if you guys have others)
 
 - write an about page
 - more designs (pal?)
 - prettier
 	- copy and paste button css into own action css
 	- add margins/padding
+- add more backgrounds
 
 - domain name (pal)
 - add admin + random numbers and letters to routes.db to manually clean database, others too (me)
@@ -26,3 +26,4 @@
 - implement send (pal)
 - prettify everything
 - make sent tabbable using twitter's api
+- fill in backgrounds database with images (I can do this, but if you guys have others)
