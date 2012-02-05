@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def delivery_email(card)
     @card = card
-    @url  = url_for(:action => :view, :only_path => false, :controller => :cards, :method => :get)
+    @url  = url_for(:view, :only_path => false)
     mail(:to => card.recipient, :subject => "You've received a Princeton Greeting Card!")
   end
 
