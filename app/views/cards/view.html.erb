@@ -1,3 +1,10 @@
-<div class="page-header jumbotron subhead"><h1>Here's your card!</h1></div>
+<div class="page-header jumbotron subhead"><h1>Preview</h1></div>
+<p id="notice"><%= notice %></p>
+
 <%= render 'form_preview' %>
-<%= button_to 'New Card', new_card_path, :method => :get, :class => "btn" %>
+
+<p>This card will be sent to <%= @card.recipient %>.</p>
+<%= button_to "Send!", sent_card_path(@card), :method => :get, :class => "btn btn-success btn-large" %>
+<%= button_to 'Edit', edit_card_path(@card), :method => :get, :class => "btn" %>
+<%= button_to "View Without Sending", @card, :method => :get, :class => "btn"%>
+<p>If you click "View Without Sending", your card will not be sent.</p>
