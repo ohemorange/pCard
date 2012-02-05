@@ -8,6 +8,7 @@
 	- add margins/padding
 - add more backgrounds
 
+- hovering action on the new card page
 - domain name (pal)
 - add admin + random numbers and letters to routes.db to manually clean database, others too (me)
 - fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
