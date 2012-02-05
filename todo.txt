@@ -1,10 +1,6 @@
-- center radio buttons
 - contact page
-- suggest a layout
-- submit an image
 - footer with about and our names
-- switch view and preview
-
+- vertical picture sizes
 
 
 - success of sent on sent page
@@ -18,6 +14,9 @@
 	- if has content send email
 		- but maybe not such a good idea because then the 200 will fill up faster
 - test more mobiles
+- center radio buttons
+- suggest a layout
+- submit an image
 
 - hovering action on the new card page
 - domain name (pal)
@@ -69,3 +68,9 @@
 - make a card button looks really puny
 - text on card bigger
 - font on card color and line spacing
+- switch view and preview
+	- test view without sending
+- edit>preview and sent do not work, preview>sent does.
+- notify instead of text
+- wtf is the from doing
+
