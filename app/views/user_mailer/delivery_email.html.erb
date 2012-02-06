@@ -15,7 +15,7 @@
       Congratulations, you've received a pCard from <%= @card.from %>!
     </p>
     <p>
-      Please follow this link to view your card: <%= @url %>
+      Please follow this link to view your card: <%= link_to(@url) do %><%= @url %><% end %>
     </p>
     <p>
       Have a great day!

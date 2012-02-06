@@ -1,6 +1,4 @@
 - change purple to blue
-- layout header bigger
-- preview button bigger
 - make sure email is link_to, not url_for
 - make sure image on card does not highlight
 
@@ -91,3 +89,5 @@
 - center radio buttons
 - hovering action on the new card page
 - change blue
+- layout header bigger
+- preview button bigger
