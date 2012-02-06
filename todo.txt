@@ -1,4 +1,3 @@
-- change purple to blue
 - on preview page, show currently selected
 
 - sign in with facebook -> post pcard to fb wall
@@ -92,3 +91,4 @@
 - preview button bigger
 - make sure email is link_to, not url_for
 - make sure image on card does not highlight
+- change purple to blue
