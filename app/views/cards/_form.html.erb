@@ -68,8 +68,8 @@
           <center>
             <div class="thumbnail">
               <%= image_tag(design.file, :class => "preview") %>
+              <%= f.radio_button(:design, design.file) %>
             </div>
-            <%= f.radio_button(:design, design.file) %>
           </center>
         </label>
       </li>
