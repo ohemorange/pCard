@@ -11,15 +11,24 @@
           $('.thumbnail').mouseover(function () {
               $(this).addClass('shadow');
           })
-          .mousedown(function () {
-              $(this).removeClass('shadow');
-          })
-          .mouseup(function () {
-              $(this).addClass('shadow');
-          })
+          // .mousedown(function () {
+          //     $(this).removeClass('shadow');
+          // })
+          // .mouseup(function () {
+          //     $(this).addClass('shadow');
+          // })
           .mouseleave(function () {
               $(this).removeClass('shadow');
           });
+
+          $('.thumbnail :radio').focus(updateSelectedStyle);
+          $('.thumbnail :radio').blur(updateSelectedStyle);
+          $('.thumbnail :radio').change(updateSelectedStyle);
+
+          function updateSelectedStyle() {
+            $('.thumbnail :radio').removeClass('shadow').next().removeClass('shadow');
+            $('.thumbnail :radio:checked').addClass('shadow').next().addClass('shadow');
+          }
       })
   </script>
 </head>
