@@ -16,7 +16,7 @@
 //= require twitter/bootstrap
 
 $(document).ready(function() {
-          $('.thumbnail .selectable').mouseover(function () {
+          $('.thumbnail.selectable').mouseover(function () {
               $(this).addClass('shadow1');
           })
           .mousedown(function () {
@@ -26,12 +26,12 @@ $(document).ready(function() {
               $(this).removeClass('shadow1');
           });
 
-          $('.thumbnail .selectable :radio').focus(updateSelectedStyle);
-          $('.thumbnail .selectable :radio').blur(updateSelectedStyle);
-          $('.thumbnail .selectable :radio').change(updateSelectedStyle);
+          $('.thumbnail.selectable :radio').focus(updateSelectedStyle);
+          $('.thumbnail.selectable :radio').blur(updateSelectedStyle);
+          $('.thumbnail.selectable :radio').change(updateSelectedStyle);
 
           function updateSelectedStyle() {
-            $('.thumbnail .selectable :radio').parent().removeClass('shadow').next().removeClass('shadow');
-            $('.thumbnail .selectable :radio:checked').parent().addClass('shadow').next().addClass('shadow');
+            $('.thumbnail.selectable :radio').parent().removeClass('shadow').next().removeClass('shadow');
+            $('.thumbnail.selectable :radio:checked').parent().addClass('shadow').next().addClass('shadow');
           }
       })
