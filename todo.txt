@@ -1,15 +1,12 @@
 - sign in with facebook -> post pcard to fb wall
-
 - support for line breaks in text
 - star indicates required field
 - from field and make that the from in the email
 - success of sent on sent page
-- add more backgrounds
 - enter your email if you want to receive confirmation email
 	- if has content send email
 		- but maybe not such a good idea because then the 200 will fill up faster
 - test more mobiles
-- center radio buttons
 - suggest a layout
 - submit an image
 - horizontal layouts
@@ -22,11 +19,7 @@
 - test in opera
 - arrange images by popularity (keep black squirrel and girl walking last)
 
-TO DO NOW
-- put in ad-sense
 
-
-- hovering action on the new card page
 - domain name (pal)
 - add admin + random numbers and letters to routes.db to manually clean database, others too (me)
 - fill in different field on different pages (annoying to do, not necessary, but I figured out how to do it using routes.db now)
@@ -87,3 +80,7 @@ TO DO NOW
 	- copy and paste button css into own action css
 	- add margins/padding
 - remove shadow transition
+- put in ad-sense
+- add more backgrounds
+- center radio buttons
+- hovering action on the new card page
