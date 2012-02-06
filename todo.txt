@@ -1,6 +1,6 @@
 - change purple to blue
-- make sure email is link_to, not url_for
 - make sure image on card does not highlight
+- on preview page, show currently selected
 
 - sign in with facebook -> post pcard to fb wall
 - support for line breaks in text
@@ -91,3 +91,4 @@
 - change blue
 - layout header bigger
 - preview button bigger
+- make sure email is link_to, not url_for
