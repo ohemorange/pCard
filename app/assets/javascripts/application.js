@@ -15,3 +15,23 @@
 //= require_tree .
 //= require twitter/bootstrap
 
+$(document).ready(function() {
+          $('.thumbnail').mouseover(function () {
+              $(this).addClass('shadow1');
+          })
+          .mousedown(function () {
+              $(this).removeClass('shadow1');
+          })
+          .mouseleave(function () {
+              $(this).removeClass('shadow1');
+          });
+
+          $('.thumbnail :radio').focus(updateSelectedStyle);
+          $('.thumbnail :radio').blur(updateSelectedStyle);
+          $('.thumbnail :radio').change(updateSelectedStyle);
+
+          function updateSelectedStyle() {
+            $('.thumbnail :radio').parent().removeClass('shadow').next().removeClass('shadow');
+            $('.thumbnail :radio:checked').parent().addClass('shadow').next().addClass('shadow');
+          }
+      })
