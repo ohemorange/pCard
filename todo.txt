@@ -1,4 +1,9 @@
 - on preview page, show currently selected
+- make page load faster by showing small thumbnails
+- get typical picture of tiger statues
+- weird scrolly thing on firefox, maybe margin or padding or something.
+- firefox click thing using radio buttons only.
+- send emails through gmail instead
 
 - sign in with facebook -> post pcard to fb wall
 - support for line breaks in text
